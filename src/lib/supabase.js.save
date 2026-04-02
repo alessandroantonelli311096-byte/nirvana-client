@@ -1,0 +1,28 @@
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = 'https://ejqwgypyxmqczysybrne.supabase.co'
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVqcXdneXB5eG1xY3p5c3licm5lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUwNjA2MDEsImV4cCI6MjA5MDYzNjYwMX0.sAn8la_KCVXU2kbXPb3CKJB2sh50_8vQqJ5dl7kC4tw'
+
+export const supabase = createClient(supabaseUrl, supabaseKey)
+EOF
+import { createClient } from '@supabase/supabase-js'
+
+// Sostituisci questi valori con quelli del tuo progetto Supabase
+// Li trovi in: Project Settings > API Keys
+const supabaseUrl = 'https://IL-TUO-PROGETTO.supabase.co'
+const supabaseKey = 'LA-TUA-ANON-KEY'
+
+export const supabase = createClient(supabaseUrl, supabaseKey)
+cat > ~/Desktop/nirvana-client/src/lib/supabase.js << 'EOF'
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = 'https://ejqwgypyxmqczysybrne.supabase.co'
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVqcXdneXB5eG1xY3p5c3licm5lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUwNjA2MDEsImV4cCI6MjA5MDYzNjYwMX0.sAn8la_KCVXU2kbXPb3CKJB2sh50_8vQqJ5dl7kC4tw'
+
+export const supabase = createClient(supabaseUrl, supabaseKey)
+EOF
+
+EOF
+
+
+
